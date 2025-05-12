@@ -9,18 +9,26 @@ public class GameManager : MonoBehaviour {
     private float _spawnRate = 1.5f;
     private bool _isGameOver;
     private int _scoreGlobal;
+    private int _lives;
 
 
     [SerializeField] private List<GameObject> _target;
     [SerializeField] private GameObject _targetContainer;
     [SerializeField] private TextMeshProUGUI _scoreUiText;
+    [SerializeField] private TextMeshProUGUI _livesText;
     [SerializeField] private TextMeshProUGUI _gameOverText;
     [SerializeField] private Button _restartButton;
     [SerializeField] private GameObject _titleScreen;
 
+    public int Lives
+    {
+        get { return _lives; }
+        set { _lives = value; }
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
-
+        _lives = 3;
     }
 
     // Update is called once per frame
@@ -28,6 +36,10 @@ public class GameManager : MonoBehaviour {
 
     }
 
+    public void UpdateLives(int lives) {
+        Lives = lives;
+        _livesText.text = "Lives: " + lives;
+    }
     public void UpdateScore(int score) {
         _scoreGlobal += score;
         _scoreUiText.text = "Score: " + _scoreGlobal;
