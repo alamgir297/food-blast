@@ -1,34 +1,70 @@
-# Clicky Crates
+# Food Blast 🍓💥
 
-## Description
-**Clicky Crates** is a 3D physics-based arcade game where crates are tossed into the air, and the player clicks on them to blast them and score points.  
-The game features a dynamic scoring system where different crates grant varying points, while skull crates deduct points.  
-The game includes three difficulty levels that control the frequency and speed of crate tosses.  
-Visual effects and interactive UI elements enhance the player experience, providing a polished gameplay feel.
+**Food Blast** is a fast-paced, physics-based arcade slicing game made in Unity. Click, slice, and blast flying foods mid-air while avoiding dangerous bombs and skulls!
 
-## Features
-- 3D physics-based crate tossing
-- Click-to-blast gameplay with variable scoring
-- Three difficulty levels: Easy, Medium, and Hard
-- Dynamic scoring system with point deductions for skulls
-- Engaging visual effects
-- Responsive UI with score display and level information
-- Playable prototype for quick testing and feedback
+> 🆕 *Previously titled "Clicky Crates", the game has now shifted from tossing crates to a more flavorful food-slicing theme for a juicier gameplay experience.*
 
-## Gameplay
-- Crates are randomly tossed into the air, and the player must click on them to score points.
-- Different crates yield different point values, while skulls will deduct points if clicked.
-- As difficulty increases, crates are tossed more frequently, adding to the challenge.
-- The game features smooth animations, visual cues, and an intuitive interface for a fun and engaging experience.
+---
 
-## Tech Stack
-- **Game Engine:** Unity 3D
-- **Programming Language:** C#
+## 🎮 Gameplay
+- Physics based classic fruit blasting game!
+- Slice fruits and foods mid-air by clicking or tapping them.
+- Avoid bombs — you get three chances  (three lives)!
+- Score points for each food you blast.
+- Watch for colorful score popups where foods are sliced.
+- Three difficulty levels to choose from- Easy, medium and hard.
+- Simple, juicy, and addictive!
 
-## How to Play
-- The player clicks on crates to score points.
-- Avoid clicking on skull crates, as they will deduct points.
-- Challenge yourself by selecting different difficulty levels to increase crate toss frequency.
+---
 
-## Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to fork the repo, make changes, and create a pull request.
+## 🛠️ Built With
+
+- **Unity Engine**
+- **C#**
+- Physics-based motion & slicing
+- UI using Unity Canvas System
+
+---
+
+## 📦 Features
+
+- Randomized food spawning with torque and upward force
+- Visual effects and sound effects on slice
+- Score tracking and game-over handling
+- Clean, mobile-friendly 16:9 aspect layout
+
+---
+
+## 📂 Project Status
+
+✅ Game completed  
+🎨 Theme shifted from crates to food  
+🧪 Built and tested for WebGL  
+📝 Future improvements may include swipe gesture input, combo bonuses, or difficulty scaling.
+
+---
+
+## ▶️ Play It Online
+
+(https://play.unity.com/en/games/06003055-68f1-42d4-b183-13db49df857c/food-blast)
+
+---
+
+## 📸 Screenshots
+---![Screenshot 2025-05-13 022549](https://github.com/user-attachments/assets/e1058fc8-625a-4580-9350-33f6bc6707b7)
+![image](https://github.com/user-attachments/assets/bd366daa-e142-4727-a953-4da315b4a860)
+![Screenshot 2025-05-13 030637](https://github.com/user-attachments/assets/c4e70fec-1d28-403d-9017-867e0615af55)
+
+
+
+## 📄 License
+
+This project is for learning and portfolio purposes. Assets used are either free or placeholders.
+
+---
+
+## 👤 Author
+
+Developed by [Alamgir Khan]  
+Feel free to connect or give feedback!
+
